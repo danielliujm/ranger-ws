@@ -1,0 +1,1 @@
+bool trigger_parked_mode

@@ -1,3 +1,6 @@
 [submodule "ranger_ros2"]
 	path = ranger_ros2
 	url = https://github.com/agilexrobotics/ranger_ros2.git
+[submodule "ugv_gazebo_sim"]
+	path = ugv_gazebo_sim
+	url = https://github.com/agilexrobotics/ugv_gazebo_sim.git
