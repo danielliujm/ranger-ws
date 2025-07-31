@@ -18,9 +18,12 @@ install(
  )
  
 # Install launch files
-install(DIRECTORY launch
+install(DIRECTORY launch rviz worlds config
   DESTINATION share/${PROJECT_NAME}/
 )
+
+install (PROGRAMS src/tf_publisher.py
+DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

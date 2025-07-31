@@ -2,36 +2,29 @@
 ros2 topic descriptions: 
 
 # /actuator_state
-State of the 8 actuators on the robot.
-
 Type: ranger_msgs/msg/ActuatorStateArray
 
 Example message: 
 
-```
-- id: 7 
-  motor: 
-    rpm: 0 
-    current: 0.0 
-    pulse_count: 0 
-  driver: 
-    driver_voltage: 49.20000076293945 
-    driver_temperature: 28.0 
+- id: 7
+  motor:
+    rpm: 0
+    current: 0.0
+    pulse_count: 0
+  driver:
+    driver_voltage: 49.20000076293945
+    driver_temperature: 28.0
     motor_temperature: 26.0
     driver_state: 0
-```
 
 
  where No. 0 is the right front wheel motor, No. 1 is the right rear wheel motor, No. 2 is the left rear wheel motor, No. 3 is the left front wheel motor, No. 4 is the right front steering motor, No. 5 is the right rear steering motor, No. 6 is the left rearsteering motor, and No. 7 is the left front steering motor.
 
  # /battery_state
- State of the battery 
- 
  Type: sensor_msgs/msg/BatteryState
 
  Example message: 
 
-```
  header:
    stamp:
      sec: 1748899754
@@ -52,34 +45,27 @@ Example message:
  cell_temperature: []
  location: ''
  serial_number: ''
-```
 
 # /motion_state
-Motion state of the robot.
-
 Type: ranger_msgs/msg/MotionState
 
 Example message:
 
-```
 header:
   stamp:
     sec: 1748899958
     nanosec: 958790685
   frame_id: ''
 motion_mode: 3
-```
 
 where motion_mode = 0 means the robot is in dual ackermann steering mode, motion_mode = 1 means the robot's wheels are parallel, motion_mode = 2 means the robot is in spinning mode, motion_mode = 3 means the robot is parked, motion_mode = 4 means the robot is in side slip mode. 
 
 
 # /rc_state
-States of controller switches and joysticks.
-
 Type: ranger_msgs/msg/RCState
 
 Example message: 
-```
+
 swa: 0
 swb: 2
 swc: 1
@@ -89,16 +75,15 @@ stick_right_h: 0
 stick_left_v: 0
 stick_left_h: 0
 var_a: 0
-```
 
-
+The state of controller switches and joysticks.
 
 # /system_state
 Type: ranger_msgs/msg/SystemState
 
 Example message: 
-```
-header:
+
+header: F
   stamp:
     sec: 1748900279
     nanosec: 918745888
@@ -108,7 +93,6 @@ control_mode: 1
 error_code: 0
 battery_voltage: 50.900001525878906
 motion_mode: 0
-```
 
 where
 ```

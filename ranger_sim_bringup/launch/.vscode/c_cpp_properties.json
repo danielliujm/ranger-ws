@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dliujm/ranger_ws/install/ranger_msgs/include/**",
+        "/home/dliujm/ranger_ws/install/mocap_optitrack_interfaces/include/**",
+        "/home/dliujm/ranger_ws/install/gz_ros2_control/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/dliujm/ranger_ws/src/gz_ros2_control/gz_ros2_control/include/**",
+        "/home/dliujm/ranger_ws/src/ranger_ros2/ranger_base/include/**",
+        "/home/dliujm/ranger_ws/src/ranger_sim_bringup/include/**",
+        "/home/dliujm/ranger_ws/src/ros2-mocap_optitrack/mocap_optitrack_client/include/**",
+        "/home/dliujm/ranger_ws/src/ros2-mocap_optitrack/mocap_optitrack_inv_kin/include/**",
+        "/home/dliujm/ranger_ws/src/ros2-mocap_optitrack/mocap_optitrack_w2b/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

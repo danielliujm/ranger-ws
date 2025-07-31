@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dliujm/ranger_ws/install/ranger_msgs/local/lib/python3.10/dist-packages",
+        "/home/dliujm/ranger_ws/install/ranger_ctrl/lib/python3.10/site-packages",
+        "/home/dliujm/ranger_ws/install/mocap_optitrack_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dliujm/ranger_ws/install/ranger_msgs/local/lib/python3.10/dist-packages",
+        "/home/dliujm/ranger_ws/install/ranger_ctrl/lib/python3.10/site-packages",
+        "/home/dliujm/ranger_ws/install/mocap_optitrack_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
