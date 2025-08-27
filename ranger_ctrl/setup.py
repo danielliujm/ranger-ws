@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [ 'send_vel = ranger_ctrl.send_vel:main',
+                            'rotate_in_place_srv = ranger_ctrl.rotate_in_place_srv:main',
         ],
     },
 )
